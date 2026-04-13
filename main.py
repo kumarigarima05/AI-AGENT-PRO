@@ -54,7 +54,7 @@ def run_agent(user_input):
 
 # ---------------- UI ---------------- #
 
-st.title("🤖 AI Productivity Agent (LangChain + Groq)")
+st.title("🤖 Smart AI Training & Scheduling Agent")
 
 user_input = st.text_input("Ask me anything (training, schedule, tasks)")
 
