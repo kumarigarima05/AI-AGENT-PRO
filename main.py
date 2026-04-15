@@ -2,7 +2,6 @@ import streamlit as st
 import os
 from dotenv import load_dotenv
 import re
-import datetime
 
 from langchain_groq import ChatGroq
 
@@ -25,7 +24,7 @@ llm = ChatGroq(
 )
 
 # -----------------------------
-# 🧠 SIMPLE MEMORY (SAFE)
+# 🧠 SAFE MEMORY (CLOUD FRIENDLY)
 # -----------------------------
 MEMORY_FILE = "memory.txt"
 
@@ -46,7 +45,7 @@ def load_memory():
         return ""
 
 # -----------------------------
-# 🧠 DATE/TIME EXTRACTOR (FIXED)
+# 🧠 DATE/TIME EXTRACTOR
 # -----------------------------
 def extract_datetime(text):
     text = re.sub(r'(\d{1,2})([a-zA-Z])', r'\1 \2', text)
@@ -56,14 +55,12 @@ def extract_datetime(text):
     match = re.search(pattern, text)
 
     if match:
-        date = match.group(1)
-        time = match.group(2)
-        return date, time
+        return match.group(1), match.group(2)
 
     return None, None
 
 # -----------------------------
-# 🛠️ TOOLS (SAFE MODE - NO CRASH)
+# 🛠️ TOOLS (SAFE MODE ONLY)
 # -----------------------------
 def schedule_meeting(text):
     date, time = extract_datetime(text)
@@ -74,6 +71,8 @@ def schedule_meeting(text):
 📌 Details: {text}
 📆 Date: {date if date else "Not detected"}
 ⏰ Time: {time if time else "Not detected"}
+
+⚠️ Note: Calendar disabled in cloud mode
 🤖 AI Agent Active
 """
 
@@ -94,7 +93,7 @@ def delivery_task(text):
 """
 
 # -----------------------------
-# 🧠 ROUTER (WITH MEMORY)
+# 🧠 ROUTER
 # -----------------------------
 def router(user_input):
     text = user_input.lower()
