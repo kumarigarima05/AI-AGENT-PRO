@@ -1,6 +1,22 @@
+# Python env
 .venv/
 __pycache__/
 *.pyc
+
+# Secrets
 .env
 token.json
+credentials.json
+
+# App memory
 memory.txt
+
+# Logs
+*.log
+
+# Streamlit
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
