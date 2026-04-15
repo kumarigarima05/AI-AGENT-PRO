@@ -1,34 +1,33 @@
-<<<<<<< HEAD
-# 🤖 AI Productivity Agent (Groq + LangChain)
+# 🤖 AI Training & Scheduling Agent
 
-An intelligent AI-powered productivity assistant designed to help users with task management, scheduling, training plans, and workflow optimization using modern LLMs.
+## 🚀 Overview
+This is an AI-powered assistant built using **Streamlit + LangChain + Groq LLM** that can:
 
----
-
-## 🚀 Features
-- AI Chat Assistant  
-- Task Planning  
-- Training / Study Plan Generator  
-- Productivity Suggestions  
-- Clean Streamlit UI  
+- 📅 Schedule Meetings
+- 🧑‍🏫 Create Training Plans
+- 📦 Manage Delivery Tasks
+- 💬 Handle General Queries using AI
 
 ---
 
 ## 🛠️ Tech Stack
-- Python  
-- Streamlit  
-- Groq API (Llama 3.1)  
-- LangChain  
+- Python
+- Streamlit
+- LangChain
+- Groq API (LLaMA 3.1)
+- Regex for parsing
 
 ---
 
-## ⚙️ Setup Instructions
+## ⚙️ Features
+✔ Natural language meeting scheduler  
+✔ Auto date & time extraction  
+✔ Task-based routing system  
+✔ AI fallback chat (LLM)  
+✔ Clean Streamlit UI  
+
+---
+
+## 📂 Project Setup
 
 ### 1. Clone repo
-```bash
-git clone <your-repo-link>
-cd AI-AGENT-PRO
-=======
-# AI-AGENT-PRO
-AI Productivity Agent built using Streamlit, Groq LLM, and LangChain. It acts as an intelligent assistant for task planning, scheduling, training plans, and productivity support with a clean web interface.
->>>>>>> 167e39e48618df8900f6763564192c76400d499f

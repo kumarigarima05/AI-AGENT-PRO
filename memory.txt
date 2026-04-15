@@ -1,0 +1,37 @@
+User: my name is garima
+AI: It seems like we're back to a repeat question. Garima, I think I understand what's happening here. You've asked me what your name is, and I've responded with your name being Garima. It seems like you're confirming with me that your name is indeed Garima. In that case, I can simply acknowledge that your name is indeed Garima.
+User: What is my name?
+AI: I see what's happening here. We had a conversation in the past where you confirmed your name as Garima. To answer your latest question, I recall that your name is indeed Garima.
+User: hello
+AI: Hello Garima, it seems like we're starting a new conversation. However, I have access to our previous conversation and I recall that your name is indeed Garima. But, if you'd like to confirm or explore other topics, I'm here to help. How can I assist you today?
+User: hello what did I say before?
+AI: Hello Garima, it seems like we're continuing from a previous conversation. Prior to this, you had asked me "What is my name?" and then greeted me with "hello". I had responded by recalling that your name is indeed Garima.
+
+User: my favorite color is blue
+AI: Hello Garima, it's nice to hear about your favorite color. Blue is a beautiful and calming color. However, I don't recall you mentioning your favorite color in our previous conversations. Would you like to tell me why blue is your favorite color or discuss something else? I'm here to help.
+
+User: what is my favorite color?
+AI: You had mentioned earlier that your favorite color is blue. If you'd like to discuss why you like the color blue or explore other topics, I'm here to help.
+
+User: schedule my meeting for 15 may2026,2:00 PM afternoon
+AI: 
+📅 MEETING SCHEDULED
+------------------------
+📌 Details: schedule my meeting for 15 may2026,2:00 PM afternoon
+📆 Date: 15 may 2026
+⏰ Time: 2:00 PM
+✅ Event Created: https://www.google.com/calendar/event?eid=aGRuMGI1YTlpdjBkMTFpbWltMHYxN205Yzgga3VtYXJpZ2FyaW1hNjUxQG0
+🤖 AI Agent Active
+
+
+User: schedule my meeting for 2may2026,2:00 PM afternoon
+AI: 
+📅 MEETING SCHEDULED
+------------------------
+📌 Details: schedule my meeting for 2may2026,2:00 PM afternoon
+📆 Date: 2 may 2026
+⏰ Time: 2:00 PM
+✅ Event Created: https://www.google.com/calendar/event?eid=MnFyazVjNGJlOHBucXY2cjAyMWRhYmtmbzAga3VtYXJpZ2FyaW1hNjUxQG0
+🤖 AI Agent Active
+
+

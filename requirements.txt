@@ -1,4 +1,4 @@
 streamlit
-openai
+langchain
+langchain-groq
 python-dotenv
-langchain-community
